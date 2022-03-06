@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteles Don Genjibre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="formulario.js"></script>
+    
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class = "container">
+        <nav class = "nav-main">
+            <img src="img/brand.png" alt="Paste Logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#Menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#Cotiza">Cotiza tu pastel</a>
+                </li>
+                <li>
+                    <a href="#">Galeria</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+
+    <div class="presentacion">
+        <header class="pasteles">
+            <h1>Personalizamos tus pasteles</h1>
+        </header>
+        <div class="pastelespresentacion">
+
+            <div class="pastel1">
+                <img src="img/pastel.jpg" alt="pastel1" class="pastel11">
+            </div>
+            
+            <div class="pastel2">
+                <img src="img/pastel1.jpg" alt="pastel1" class="pastel12">
+            </div>
+            
+            <div class="pastel3">
+                <img src="img/pastel2.jpg" alt="pastel1" class="pastel13">
+            </div>
+        </div>  
+    </div>
+
+    <div class="Menu" id="Menu">
+        <header class="Listamenu">
+            <h1>Menu</h1>
+        </header>
+        <div class="menu1">
+            <h1 class="pasteltitulo">
+            Pastel de Fresa            
+            </h1>
+            <h1 class="pasteldescription">
+            Pastel de 3 leches, hecho con las mas frescas fresas del nuestro huerto y un toque de canela que te cautivara.
+            </h1>
+            <h1 class="pasteltitulo">
+                Pastel de Coco
+            </h1>
+            <h1 class="pasteldescription">
+            Pastel con coco, tan fresco que comeras mas de una rebanada.
+            </h1>
+            <h1 class="pasteltitulo">
+                Pastel de Durazno
+            </h1>
+            <h1 class="pasteldescription">
+                Duraznos de temporada, combinado con un toque de cerezas que te dejaran un gran sabor de boca.
+            </h1>
+            <h1 class="pasteltitulo">
+                Pastel de Piñon
+            </h1>
+            <h1 class="pasteldescription">
+                Pan de vainilla humedecido con leche relleno con crema natural y piñónes, cubierto con crema de piñón.
+            </h1>
+            <h1 class="pasteltitulo">
+                Pastel novios
+            </h1>
+            <h1 class="pasteldescription">
+                Pastel decorado con la fruta que desees con la forma favorita de tu pareja. Ideal si quieres concentirl@.
+            </h1>
+        </div>
+          <hr>
+          <hr>
+        
+    </div>
+    <div class="Cotiza" id="Cotiza">
+        <header class ="cotizacion">
+        <h1>Cotiza tu Pastel</h1>
+        </header>
+        <div class="seleccion_pastel">
+            <form>
+            <div>
+                <form name="sabor"><p style="background: #fcdbe6; color: #f15c8e; font-weight: bold; padding: 15px; border: 2px solid #fac9d9; border-radius: 6px;">
+                <a>Selecciona tu sabor</a>
+                <br>
+                <br>
+                    <input id="piñon" type="checkbox" name="piñon" value="piñon">
+                    <Label for="piñon">Piñon</Label>
+                     <br>
+                     <input id="fresa" type="checkbox" name="fresa" value="fresa">
+                     <Label for="fresa">Fresa</Label>
+                     <br>
+                     <input id="piña" type="checkbox" name="piña" value="piña">
+                     <Label for="piña">Piña</Label>
+                     <br>
+                     <input id="frutas" type="checkbox" name="frutas" value="frutas">
+                     <Label for="frutas">Frutos Rojos</Label>
+                     <br>
+                     <input id="durazno" type="checkbox" name="durazno" value="durazno">
+                     <Label for="durazno">Durazno</Label>
+                 </form>
+                </p>                 
+            </div>
+            <div>
+                <form name="cubiertap">
+                    <p style="background: #bdf0fa; color: #0c92ac; font-weight: bold; padding: 15px; border: 2px solid #abecf9; border-radius: 6px;">
+                <a>Selecciona la Cubierta</a>
+                <br>
+                <br>
+                <input id="Chocolate" type="radio" name="cubierta" value="Chocolate">
+                <Label for="Chocolate">Chocolate</Label>
+                 <br>
+                 <input id="Chantilli" type="radio" name="cubierta" value="Chantilli">
+                 <Label for="Chantilli">Chantilli</Label>
+                 <br>
+                 <input id="Fruta" type="radio" name="cubierta" value="Fruta">
+                 <Label for="Fruta">Fruta</Label>
+                 <br>
+                 <input id="Flores" type="radio" name="cubierta" value="Flores">
+                 <Label for="Flores">Flores</Label>
+                 <br>
+                 <input id="Fondant" type="radio" name="cubierta" value="Fondant">
+                 <Label for="Fondant">Fondant</Label>
+                </form>                
+                </p>
+            </div>
+            <div>
+                <form name="fecha">
+                    <p style="background: #5af39f; color: #1f701d; font-weight: bold; padding: 15px; border: 2px solid #4cd174; border-radius: 6px;">
+                    <a>Indicanos la fecha que deseas de entrega</a>
+                    <input type="date" name="date">
+                    <br>
+                    <br>
+                    <label>(El precio varia dependiendo la fecha deseada)</label>
+                    <br>
+                    </p>
+                </form>
+            </div>
+            <div class="btncotizar">
+                <button type="button" value="Cotizar" onclick="cotizacion()">Cotizar</button>
+            </div>
+        </form>
+       </div>
+        
+    </div>
+    <a href="#up" class="simplescrollup__button simplescrollup__button--hide simplescrollup__button--show"> Arriba
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <script src="simplescrollup.js"></script>
+</body>
+</html>

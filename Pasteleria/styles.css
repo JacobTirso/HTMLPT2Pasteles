@@ -1,0 +1,204 @@
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+     background: #808080;
+     color: rgb(14, 3, 3);
+     background-color: whitesmoke;
+     font-size: 16px;
+     font-family: 'Oswald', sans-serif;
+     background-image: url(img/fondopastel.jpg);
+ }
+
+ a {
+     text-decoration: none ;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .container {
+     width: 90%;
+     margin: auto;
+ }
+
+ /*Navigation*/
+
+ .nav-main { 
+     font-size: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 60px;
+     padding: 20px 0;
+     color: black;
+     
+ }      
+
+ .nav-brand {
+     width: 90px;
+     margin-top: 10px;
+ }
+
+ .nav-brand:hover {
+    transform:scale(1.5);
+    -webkit-transform:scale(1.05);
+    filter: grayscale(50%);
+    transition: transform .5s;
+}
+
+ /*nav left*/
+
+ .nav-main ul {
+     display: flex;
+ }
+
+ .nav-main ul li {
+     padding: 40px;
+
+ }
+
+ .nav-main ul li a{
+     padding: 2px;
+ }
+
+ .nav-main ul li a:hover{
+     border-bottom: 2px solid black;
+ }
+
+ .nav-main ul.nav-menu {
+     flex: 1;
+     margin-left: 300px;
+     margin-top: 40px;
+ }
+
+ .pasteles h1{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+ }
+
+ .presentacion {
+   padding-bottom: 50px;
+ }
+
+ .pastelespresentacion { 
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 10px;
+
+ }
+
+ .pastel11 {
+    width: 430px;
+    height: 400px;
+    margin-left: 50px;
+ }
+
+ .pastel12 {
+    width: 450px;
+    height: 400px;
+    margin-right: 40px;
+    margin-left: 40px;
+ }
+
+ .pastel13 {
+    width: 450px;
+    height: 400px;
+    margin-right: 100px;
+ }
+
+ .Listamenu h1{
+     color: black;
+     align-self: center;
+     display: flex;
+     margin-left: 710px;
+ }
+
+.pastel1 :hover{
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transition: transform .7s;
+}
+
+.pastel2 :hover{
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transition: transform .7s;
+}
+
+.pastel3 :hover{
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transition: transform .7s;
+}
+
+.pasteltitulo {
+    color: rgb(248, 136, 155);
+    font-size: 30px;
+    margin-left: 150px;
+    
+}
+
+.pasteldescription{
+    color: rgb(100, 145, 187);
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.simplescrollup__button {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    transition: 1s all;
+    z-index: 10000;
+}
+.simplescrollup__button--show {
+    transform: translateX(0);
+    color: red;
+}
+.simplescrollup__button--hide {
+    transform: translateX(20px);
+    color: rgb(94, 255, 0);
+}   
+
+.cotizacion { 
+    align-self: center;
+    display: flex;
+    margin-left: 650px;
+}
+
+.seleccion_pastel{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, .5fr);
+    display: grid;
+}
+
+.seleccion_pastel a {
+    font-size: 30px;
+    margin-left: -10px;
+   
+}
+
+.seleccion_pastel form{
+    margin-right: 100px; 
+    margin-left: -50px;
+}
+
+.btncotizar button{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 140px;
+    background-color: rgb(247, 149, 238);
+    color: rgb(211, 12, 194);
+}
